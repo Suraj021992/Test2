@@ -2,12 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="85" started-at="2020-08-19T13:08:33 IST" finished-at="2020-08-19T13:08:33 IST">
+  <suite name="Default suite" duration-ms="22356" started-at="2020-08-19T19:23:22 IST" finished-at="2020-08-19T19:23:44 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="85" started-at="2020-08-19T13:08:33 IST" finished-at="2020-08-19T13:08:33 IST">
+    <test name="Default test" duration-ms="22356" started-at="2020-08-19T19:23:22 IST" finished-at="2020-08-19T19:23:44 IST">
       <class name="testcases.Test1">
-        <test-method status="PASS" signature="f()[pri:0, instance:testcases.Test1@2a17b7b6]" name="f" duration-ms="16" started-at="2020-08-19T13:08:33 IST" finished-at="2020-08-19T13:08:33 IST">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testcases.Test1@26aa12dd]" name="launchBrowser" is-config="true" duration-ms="22252" started-at="2020-08-19T19:23:22 IST" finished-at="2020-08-19T19:23:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="f()[pri:0, instance:testcases.Test1@26aa12dd]" name="f" duration-ms="9" started-at="2020-08-19T19:23:44 IST" finished-at="2020-08-19T19:23:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
