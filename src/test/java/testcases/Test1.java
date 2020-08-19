@@ -1,5 +1,6 @@
 package testcases;
 
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -23,5 +24,11 @@ public class Test1 {
 	  public void test2()
 	  {
 		  System.out.println("In a test 2");
+	  }
+	  
+	  @ AfterClass
+	  public void afterClass()
+	  {
+		  Launch_browser.closeDriver();
 	  }
 }
