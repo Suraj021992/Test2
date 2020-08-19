@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="66" started-at="2020-08-18T15:34:46 IST" finished-at="2020-08-18T15:34:47 IST">
+  <suite name="Default suite" duration-ms="85" started-at="2020-08-19T13:08:33 IST" finished-at="2020-08-19T13:08:33 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="66" started-at="2020-08-18T15:34:46 IST" finished-at="2020-08-18T15:34:47 IST">
+    <test name="Default test" duration-ms="85" started-at="2020-08-19T13:08:33 IST" finished-at="2020-08-19T13:08:33 IST">
       <class name="testcases.Test1">
-        <test-method status="PASS" signature="test2()[pri:0, instance:testcases.Test1@2a17b7b6]" name="test2" duration-ms="11" started-at="2020-08-18T15:34:47 IST" finished-at="2020-08-18T15:34:47 IST">
+        <test-method status="PASS" signature="f()[pri:0, instance:testcases.Test1@2a17b7b6]" name="f" duration-ms="16" started-at="2020-08-19T13:08:33 IST" finished-at="2020-08-19T13:08:33 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
+        </test-method> <!-- f -->
       </class> <!-- testcases.Test1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
