@@ -9,7 +9,7 @@ public class Launch_browser
 {
 	public static WebDriver dr=null;
 	
-	public static void browser()
+	public static void openBrowser()
 	{
 		
 		if(dr==null)

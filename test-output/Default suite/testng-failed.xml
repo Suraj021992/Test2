@@ -5,6 +5,7 @@
     <classes>
       <class name="testcases.Test1">
         <methods>
+          <include name="afterClass"/>
           <include name="launchBrowser"/>
           <include name="f"/>
           <include name="test2"/>

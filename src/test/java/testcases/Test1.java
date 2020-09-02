@@ -8,10 +8,14 @@ import utility.Launch_browser;
 import utility.ReadProperties;
 
 public class Test1 {
+	
+	Launch_browser br=null;
+	
 	@BeforeClass
 	public void launchBrowser()
 	{
-		Launch_browser.browser();
+		
+		Launch_browser.openBrowser();
 		Launch_browser.maximizeWindow();
 	}
 	@Test
@@ -19,6 +23,7 @@ public class Test1 {
 	  {
 		  System.out.println(ReadProperties.chrome_browser_path);
 		  System.out.println("In a Test 1");
+		  System.out.println("Temp");
 	  }
 	  @Test
 	  public void test2()

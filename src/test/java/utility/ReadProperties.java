@@ -10,7 +10,7 @@ public class ReadProperties
     public static String data="";
     
     public static String chrome_browser_path=readData("chrome_browser_path","./Drivers/chromedriver1.exe");
-    public static String url=readData("url","https://www.google.com");
+    public static String url=readData("url","https://www.google.com/");
     
 	public static String readData(String key,String default_value)
 	{
