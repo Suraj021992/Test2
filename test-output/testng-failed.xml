@@ -8,7 +8,6 @@
           <include name="afterClass"/>
           <include name="launchBrowser"/>
           <include name="f"/>
-          <include name="test2"/>
         </methods>
       </class> <!-- testcases.Test1 -->
     </classes>

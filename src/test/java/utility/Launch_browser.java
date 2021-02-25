@@ -17,6 +17,7 @@ public class Launch_browser
 			System.setProperty("webdriver.chrome.driver",ReadProperties.chrome_browser_path);
 		    dr=new ChromeDriver();		  
 		    dr.get(ReadProperties.url);
+		    
 		}
 	}
 
